@@ -1,0 +1,95 @@
+@font-face {
+    font-family: vazirNormal;
+    src: url('../fonts/vazir.eot');
+    src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir.woff2') format('woff2'), url('../fonts/vazir.woff') format('woff'), url('../fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;}
+
+body
+{
+    background-color: blue;
+    font-family: 'vazirNormal';
+    direction: rtl;
+}
+
+.container
+{
+    background-color: #fff;
+    width:500px ;
+    margin: 60px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px #00255e;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.container .box_title
+{
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: 2px dashed #ccc;
+    padding: 10px 0;
+
+}
+
+#textarea
+{
+width: 90%;
+resize: none;
+border: 1px solid #acacac;
+border-radius: 5px;
+font-family: 'vazirNormal';
+padding: 10px;
+font-size: 15px;
+height: 200px;
+margin-top: 20px;
+
+}
+
+#textarea:focus{
+    outline: none;
+    border: 1px solid #797979;
+}
+
+.btn
+{
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    padding: 10px;
+    width: 30%;
+    font-family: vazirNormal;
+    font-size: 18px;
+    border-radius: 5px;
+}
+ 
+.btn:hover{
+    cursor: pointer;
+}
+
+.copy
+{
+    background-color: #2E7D32;
+}
+
+.copy:hover{
+    background-color: #1f5a22;
+}
+
+.remove
+{
+    background-color: #B71C1C;
+}
+
+.remove:hover
+{
+    background-color: #8d1515;
+}
+
+.add{
+    background-color: #F9A825;
+}
+.add:hover
+{
+    background-color:  #da911c;
+}
